@@ -1,0 +1,25 @@
+{
+  "name": "@corefw/core-cli",
+  "version": "6.0.0",
+  "description": "The CLI Utility for the Core Framework.",
+  "license": "MIT",
+  "author": "Luke Chavers <luke@c2cschools.com>",
+  "contributors": [
+    "Kevin Sanders <kevin@c2cschools.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corefw/core-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/corefw/core-cli/issues"
+  },
+  "homepage": "https://github.com/corefw/core-cli#readme",
+  "main": "index.js",
+  "dependencies": {
+    "@corefw/common" : "^6.0.0"
+  }
+}

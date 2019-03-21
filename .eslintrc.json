@@ -1,0 +1,3 @@
+{
+	"extends": "@corefw/eslint-config"
+}
