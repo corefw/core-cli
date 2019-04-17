@@ -1,25 +1,36 @@
 {
-  "name": "@corefw/core-cli",
-  "version": "6.0.0",
-  "description": "The CLI Utility for the Core Framework.",
-  "license": "MIT",
-  "author": "Luke Chavers <luke@c2cschools.com>",
-  "contributors": [
-    "Kevin Sanders <kevin@c2cschools.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/corefw/core-cli.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "bugs": {
-    "url": "https://github.com/corefw/core-cli/issues"
-  },
-  "homepage": "https://github.com/corefw/core-cli#readme",
-  "main": "index.js",
-  "dependencies": {
-    "@corefw/common" : "^6.0.0"
-  }
+	"name": "@corefw/core-cli",
+	"version": "6.0.0",
+	"description": "The CLI Utility for the Core Framework.",
+	"license": "MIT",
+	"author": "Luke Chavers <luke@c2cschools.com>",
+	"contributors": [
+		"Kevin Sanders <kevin@c2cschools.com>"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/corefw/core-cli.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"bugs": {
+		"url": "https://github.com/corefw/core-cli/issues"
+	},
+	"homepage": "https://github.com/corefw/core-cli#readme",
+	"main": "index.js",
+	"bin": {
+		"xcc": "./bin/xcc.js"
+	},
+	"dependencies": {
+		"@corefw/common": "^6.0.0",
+		"boxen": "^3.1.0",
+		"chokidar": "^2.1.5",
+		"commander": "^2.19.0",
+		"global-modules": "^2.0.0",
+		"node-symbols": "^0.0.6",
+		"tty-table": "^2.7.0",
+		"which-pm": "^1.1.0",
+		"yarn-global": "^1.1.0"
+	}
 }
